@@ -28,4 +28,23 @@
     font-size: 1.2rem;
     max-width: 600px;
   }
+
+
+
+
+   .github-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 24px;
+    background-color: #24292e;
+    color: white;
+    border-radius: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .github-button:hover {
+    background-color: #0366d6;
+  }
   
