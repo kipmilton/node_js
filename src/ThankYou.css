@@ -1,0 +1,36 @@
+.thankyou-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #f5d5e0, #c9e4f7);
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: #333;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .profile-link {
+    text-decoration: none;
+    background-color: #ff6f91;
+    padding: 12px 24px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .profile-link:hover {
+    background-color: #ff4e73;
+  }
+  

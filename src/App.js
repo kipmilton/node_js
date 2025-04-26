@@ -1,12 +1,15 @@
-import React from 'react';
-import './App.css';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import ThankYou from './ThankYou';
+import Profile from './Profile';
 
 function App() {
   return (
-    <div className="thankyou-container">
-      <h1>Thank You!</h1>
-      <p>Hey Sophie! Your submission has been received. We'll be in touch soon!</p>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<ThankYou />} />
+        <Route path="/profile" element={<Profile />} />
+      </Routes>
+    </Router>
   );
 }
 
